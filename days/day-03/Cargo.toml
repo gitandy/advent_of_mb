@@ -1,0 +1,17 @@
+[package]
+name = "day-03"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "day-03"
+path = "src/main.rs"
+test = false
+doctest = false
+bench = false
+
+[dependencies]
+cortex-m = {version =  "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+panic-halt = "1.0"
+rtt-target = "0.6"

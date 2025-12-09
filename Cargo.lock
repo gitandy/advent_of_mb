@@ -73,7 +73,6 @@ dependencies = [
  "cortex-m",
  "cortex-m-rt",
  "panic-halt",
- "rand",
  "rtt-target",
 ]
 
