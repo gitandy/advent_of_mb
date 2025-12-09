@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "days/day-01-02",
+    #"days/day-03",
+    #"days/day-04-05",
+    ]
