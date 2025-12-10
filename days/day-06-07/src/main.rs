@@ -18,7 +18,7 @@ fn main() -> ! {
 
     // Ring 0
     let mut hot_wire = p0.p0_02.into_pullup_input();
-    // Ring 1
+    // Internal speaker
     let mut speaker = p0.p0_00.into_push_pull_output(gpio::Level::Low);
 
     let freq = 420;

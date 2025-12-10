@@ -5,7 +5,7 @@ members = [
     "days/day-03",
     "days/day-04-05",
     "days/day-06-07",
-    #"days/day-08",
+    "days/day-08",
     #"days/day-09",
     #"days/day-10",
     #"days/day-11",

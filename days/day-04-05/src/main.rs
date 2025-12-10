@@ -37,7 +37,7 @@ fn main() -> ! {
     // let mut on:bool = false;
 
     // Drive COLs high to deactivate LEDs and ROW to high to provide + on LEDS
-    let out:u32 = 1 << COL1_POS | 1 << COL2_POS | 1 << COL3_POS | 1 << ROW1_POS;
+    let out: u32 = 1 << COL1_POS | 1 << COL2_POS | 1 << COL3_POS | 1 << ROW1_POS;
 
     unsafe {
         write_volatile(ROW1_ADDR, DRIVE_LED);
@@ -79,7 +79,7 @@ fn show_number(number: u32) {
     const COL3_POS: u32 = 31;
     // const POS_8:u32 = 28;
 
-    let mut out :u32 = 1 << COL1_POS | 1 << COL2_POS | 1 << COL3_POS | 1 << ROW1_POS;
+    let mut out: u32 = 1 << COL1_POS | 1 << COL2_POS | 1 << COL3_POS | 1 << ROW1_POS;
     if number & 4 == 4 {
         out = out ^ 1 << COL1_POS;
     }

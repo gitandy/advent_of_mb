@@ -1,0 +1,19 @@
+[package]
+name = "day-08"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "day-08"
+path = "src/main.rs"
+test = false
+doctest = false
+bench = false
+
+[dependencies]
+cortex-m = {version =  "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+panic-halt = "1.0"
+rtt-target = "0.6"
+embedded-hal = "1.0"
+nrf52833-hal = "0.19"
