@@ -17,3 +17,4 @@ panic-halt = "1.0"
 rtt-target = "0.6"
 embedded-hal = "1.0"
 nrf52833-hal = "0.19"
+utils = {path = "../../utils"}

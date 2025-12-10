@@ -18,3 +18,4 @@ rtt-target = "0.6"
 embedded-hal = "1.0"
 nrf52833-hal = "0.19"
 rand = {version = "0.9", features = ["small_rng"], default-features = false}
+utils = {path = "../../utils"}
