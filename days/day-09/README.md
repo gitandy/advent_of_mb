@@ -11,4 +11,8 @@ Let's have LEDs and sound all together.
 What I have learned
 -------------------
 
+v0.1.0
 - PAC layer is way easier than bare metal
+
+v0.2.0
+- BSP layer is cool and reduces more code
