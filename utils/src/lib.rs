@@ -15,6 +15,7 @@ pub fn play_tone(
     freq: u32,
     duration: u32,
 ) {
+    // Todo: fix duration
     let period = 1000 / freq;
     for _ in 0..duration / period {
         timer_f.delay_ms(period / 2);
