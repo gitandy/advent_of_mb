@@ -1,4 +1,6 @@
 #![no_std]
+// If RustRover claims missing test due to no_std got to
+// File -> Settings... -> Rust -> External Linters -> Additional arguments: --target thumbv7m-none-eabihf
 
 use embedded_hal::delay::DelayNs;
 use embedded_hal::digital::OutputPin;
