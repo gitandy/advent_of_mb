@@ -1,14 +1,15 @@
 Advent of microbit
 ==================
 
-My wife got me an Advent Calendar from Franzis ["Electronic-Retro Games"](https://www.amazon.de/FRANZIS-67150-Adventskalender-Selberbauen-28-seitigem/dp/B0851MXXR3).
+My wife got me an Advent Calendar from
+Franzis ["Electronic-Retro Games"](https://www.amazon.de/FRANZIS-67150-Adventskalender-Selberbauen-28-seitigem/dp/B0851MXXR3).
 
-With the first flap you get a basic setup of an electronic experimentation board. 
-Each day you get some other electronic components and instruction to build or modify a little game.  
+With the first flap you get a basic setup of an electronic experimentation board.
+Each day you get some other electronic components and instruction to build or modify a little game.
 
 The kit includes a pre programed HT46R47 Microcontroller which does all the needed game logics.
 
-As I saw other _Advent of Codes_ it came to my mind to kind of reprogram the game logic for each day 
+As I saw other _Advent of Codes_ it came to my mind to kind of reprogram the game logic for each day
 to have a little more excitement. Though the target is not a complete reverse engineering of the original Firmware.
 So each project will only cover the games for the day.
 
@@ -23,12 +24,15 @@ So here it is: **The Advent of microbit**
 Further learning resources
 --------------------------
 
-A good introduction to embedded programming with Rust are the YouTube videos 
+A good introduction to embedded programming with Rust are the YouTube videos
 
 * Main setup https://youtu.be/TOAynddiu5M?si=peATEbar3KHyyq1i
 * Abstraction Layers https://youtu.be/A9wvA_S6m7Y?si=lY2WVQTrhx3u-Gn1
 
 
+Other books after you finished the _MB2 Discovery Book_
+
+* [impl Rust for microbit](https://mb2.implrust.com/index.html)
 
 Build and Run
 -------------
@@ -38,7 +42,6 @@ I summarized the essence of the Main setup to a [.odt-File](doc/setup_embeded_ru
 From the workspace root run
 
     cargo run --package day-XX --bin day-XX
-
 
 From where I start
 ------------------

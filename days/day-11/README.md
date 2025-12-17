@@ -9,5 +9,12 @@ The Rings are already pulled up with 10 MOhm but this should not be a problem (r
 What I have learned
 -------------------
 
+v0.1.0
 - How to read ADC values
 - the play_tone function does not work properly
+
+v0.2.0
+- Using another microbit BSP to be able to use PWM for sound
+- Setting up the project for embassy (the new BSP is based on embassy)
+- There is another [good resource for embedded Rust](https://mb2.implrust.com/index.html)
+- There is so much more to learn....
