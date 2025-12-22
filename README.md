@@ -1,3 +1,5 @@
+[Repository moved to Codeberg](https://codeberg.org/dragoncode/advent_of_mb)
+
 Advent of microbit
 ==================
 
